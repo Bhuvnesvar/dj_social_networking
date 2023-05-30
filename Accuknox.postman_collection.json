@@ -1,0 +1,225 @@
+{
+	"info": {
+		"_postman_id": "49b1af02-1b44-4f5b-83e3-480b8d3931a2",
+		"name": "Accuknox",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8000/api/register/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "pankaj",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "pankaj",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "sharma",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "pankaj@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "9166910213",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pankaj@123",
+							"type": "text"
+						},
+						{
+							"key": "password2",
+							"value": "pankaj@123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/register/"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/login/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "pankaj5@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "pankaj@123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/login/"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/all_users/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "127.0.0.1:8000/api/all_users/"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/search_user/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 9d6ff75c5b99ff122cc92b333f9615a78919d36b",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "query",
+							"value": "pankaj@gmail.com",
+							"type": "default"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/search_user/"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/send_request/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 9d6ff75c5b99ff122cc92b333f9615a78919d36b",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "to_user",
+							"value": "4",
+							"type": "default"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/send_request/"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/accept_request/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 35994e1b2700c3a722fd06251b00765c3d240a85",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "to_user",
+							"value": "2",
+							"type": "default"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/accept_request/"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/reject_request/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token 35994e1b2700c3a722fd06251b00765c3d240a85",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "from_user",
+							"value": "2",
+							"type": "default"
+						}
+					]
+				},
+				"url": "127.0.0.1:8000/api/reject_request/"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/profile/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token edc60c61b146cfc4e967fbfe0fb92b3e97b8f199",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": "127.0.0.1:8000/api/profile/"
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/logout/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Token cf69f11da2bb6df3aac63ab03be197da72de55b9",
+						"type": "default"
+					}
+				],
+				"url": "127.0.0.1:8000/api/logout/"
+			},
+			"response": []
+		}
+	]
+}
