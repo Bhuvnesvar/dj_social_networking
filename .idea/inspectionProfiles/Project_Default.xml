@@ -1,0 +1,101 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="1" class="java.lang.String" itemvalue="Django" />
+            <item index="2" class="java.lang.String" itemvalue="tzdata" />
+            <item index="3" class="java.lang.String" itemvalue="asgiref" />
+            <item index="4" class="java.lang.String" itemvalue="pytz" />
+            <item index="5" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="6" class="java.lang.String" itemvalue="sqlparse" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E303" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="MyProject.CAP.urls.CAP" />
+          <option value="signinup.views.*" />
+          <option value="MyProject.customadmin.views.AppUser" />
+          <option value="MyProject.signinup.admin.ab_myproject" />
+          <option value="MyProject.dashboard.views.signinup" />
+          <option value="MyProject.dashboard.views.AppUser" />
+          <option value="MyProject.dashboard.views.DeviceInfo" />
+          <option value="MyProject.settingmanagement.admin.AppUser" />
+          <option value="MyProject.notifications_emails.models.signinup" />
+          <option value="MyProject.notifications_emails.models.AppUser" />
+          <option value="MyProject.productmanagement.models.AppUser" />
+          <option value="MyProject.productmanagement.models.*" />
+          <option value="MyProject.videomanagement.models.AppUser" />
+          <option value="MyProject.videomanagement.models.signinup" />
+          <option value="MyProject.videomanagement.models.notifications_emails" />
+          <option value="MyProject.videomanagement.models.NotificationHistory" />
+          <option value="MyProject.videomanagement.admin.AppUser" />
+          <option value="MyProject.templatemanagement.admin.AppUser" />
+          <option value="MyProject.templatemanagement.models.signinup" />
+          <option value="MyProject.templatemanagement.models.AppUser" />
+          <option value="MyProject.productmanagement.admin.CategoryManagement" />
+          <option value="MyProject.ordermanagement.models.signinup" />
+          <option value="MyProject.ordermanagement.models.AppUser" />
+          <option value="MyProject.ratingreviewmanagement.models.AppUser" />
+          <option value="MyProject.ratingreviewmanagement.models.signinup" />
+          <option value="MyProject.ratingreviewmanagement.models.videomanagement" />
+          <option value="MyProject.ratingreviewmanagement.models.MediaTable" />
+          <option value="MyProject.signinup.views.time" />
+          <option value="settings" />
+          <option value="MyProject.signinup.utils.ab_myproject" />
+          <option value="MyProject.notifications_emails.admin.AppUser" />
+          <option value="MyProject.productmanagement.admin.Appuser" />
+          <option value="MyProject.productmanagement.admin.signinup" />
+          <option value="MyProject.productmanagement.admin.AppUser" />
+          <option value="MyProject.cartmanagement.models.AppUser" />
+          <option value="MyProject.cartmanagement.models.signinup" />
+          <option value="MyProject.cartmanagement.models.productmanagement" />
+          <option value="MyProject.cartmanagement.models.Product" />
+          <option value="MyProject.cartmanagement.models.Categories" />
+          <option value="MyProject.cartmanagement.models.categorymanagement" />
+          <option value="MyProject.addressmanagement.models.signinup" />
+          <option value="MyProject.addressmanagement.models.AppUser" />
+          <option value="MyProject.addressmanagement.views.signinup" />
+          <option value="MyProject.addressmanagement.views.AppUser" />
+          <option value="MyProject.ordermanagement.models.addressmanagement" />
+          <option value="MyProject.ordermanagement.models.Address" />
+          <option value="MyProject.ordermanagement.views.addressmanagement" />
+          <option value="MyProject.ordermanagement.views.signinup" />
+          <option value="MyProject.ordermanagement.views.AppUser" />
+          <option value="MyProject.ordermanagement.views.Address" />
+          <option value="MyProject.ordermanagement.views.Product" />
+          <option value="MyProject.ordermanagement.utils.ordermanagement" />
+          <option value="MyProject.ordermanagement.utils.PlaceOrders" />
+          <option value="MyProject.ordermanagement.utils.Product" />
+          <option value="MyProject.ordermanagement.utils.productmanagement" />
+          <option value="MyProject.ordermanagement.utils.PostImage" />
+          <option value="authentication.views.dress_size" />
+          <option value="user.views.rest_framework_simplejwt" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

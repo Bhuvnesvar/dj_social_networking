@@ -5,13 +5,11 @@ from rest_framework import views
 from rest_framework import viewsets, status
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.authtoken.models import Token
-from rest_framework.authtoken.serializers import AuthTokenSerializer
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
-
 from .decorators import RateLimitDecorator
 from .models import AppUser, FriendRequest, Profile
-from .serializers import RegisterSerializer, UserSerializer
+from .serializers import RegisterSerializer, UserSerializer, AuthTokenSerializer
 from .utils import check_user
 
 
